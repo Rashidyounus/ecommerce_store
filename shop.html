@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="style2.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#">
+        <img src="img/logo.png" class="logo" alt="" />
+      </a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+            <li id="lg-bag">
+          <!--cart icon-->
+             <!--  <i class="bi bi-bag" id="cart-icon">0</i> --> 
+              <i class="bi bi-bag" id="cart-icon"></i> 
+
+          </li>
+
+          <div class="_cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+       <!--
+         <div class="cart-box">
+                <img src="img/products/f1.jpg" alt="" class="cart-img"/>
+                <div class="detail-box">
+                  <div class="cart-product-title">T-Shirts</div>
+                  <div class="cart-price">$245</div>
+                  <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="bi bi-archive-fill cart-remove"></i>
+              </div>
+             
+       -->
+              
+             
+            </div>
+            <!--Total-->
+                    <div class="total">
+                       <div class="total-title">Total</div>
+                          <div class="total-price">$0</div>
+                          </div>
+<button type="button" class="btn-buy ">Buy Now</button>
+<i class="bi bi-x" id="close-cart"></i> 
+          </div>
+          <!--
+  <li id="lg-bag">
+            <a href="addtocart.html" id="cartValue" >
+              <i class="bi bi-bag">0</i></a>
+          </li>
+          -->
+        
+          <a href="#" id="close"><i class="bi bi-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="bi bi-bag"></i> </a>
+        <i id="bar" class="bi bi-list"></i>
+        <!--
+<i id="bar" class="bi bi-menu-down"></i>
+       -->
+      </div>
+    </section>
+
+    <section id="page-header">
+      <h2>#stayhome</h2>
+      <p>Save more with coupons & up to 75% off!</p>
+    </section>
+    <section id="product1" class="section-p1"  >
+      <div id="product-container" >
+     
+        </div>
+      </div>
+    </section>
+
+    <template id="prduct11" class="section-p1">
+      <div class="pro-container" >
+        <div class="pro" id="cardValue">
+          <img class="productImage" src="" alt="" />
+          <div class="des">
+            <span class="name"></span>
+            <h5 class="productName"></h5>
+            <div class="star productRating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="productStockElement">
+              <h5>Total Stocks Avaliable : </h5>
+              <h6 class="productStock"></h6>
+            </div>
+            <h4 class="productPrice"></h4>
+            <div class="productQuantiyElement">
+              <h5 class="productProperty">Quality(Pieces)</h5>
+              <div class="stockElement">
+                <button  class="cartIncrement">+</button>
+                <p class="productQuantity">1</p>
+                <button class="cartdecrement">-</button>
+              </div>
+            </div>
+          </div>
+          <!--
+<a href="#"><i class="bi bi-cart3 cart add-cart"></i></a>
+          -->
+          
+
+          <i class="bi bi-cart3 cart add-cart"></i>
+
+        </div>
+      </div>
+    </template>
+
+    <section id="pagination" class="section-p1">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#"><i class="bi bi-arrow-right"></i></a>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletter</h4>
+        <p>Get Email Update Our latest Shop and <span>Special Offer</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your Eamil Address" />
+        <button class="normal">SignUp</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Karachi</p>
+        <p><strong>Phone:</strong> 03404852127</p>
+        <p><strong>Hours:</strong> 10:00 - 7:00 , Mon- Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-pinterest"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>AboutUs</h4>
+        <a href="#">About</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">SignIn</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gatway</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2024 Company, Inc</p>
+      </div>
+    </footer>
+    <script type="module" src="./Js/app.js"></script>
+  </body>
+</html>
